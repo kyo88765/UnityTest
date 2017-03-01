@@ -2,11 +2,11 @@
 using UnityEngine.SceneManagement;
 using System.Collections;
 
-public class BackButton : MonoBehaviour {
+public class BackButton : MonoBehaviour
+{
+    public void OnButtonClicked()
+    {
 
-	public void OnButtonClicked() {
-
-		SceneManager.LoadScene ("setup");
-	}
-		
+        SceneManager.LoadScene("setup");
+    }
 }

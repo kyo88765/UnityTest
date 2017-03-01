@@ -2,10 +2,11 @@
 using UnityEngine.SceneManagement;
 using System.Collections;
 
-public class StartButton : MonoBehaviour {
+public class StartButton : MonoBehaviour
+{
+    public void OnButtonClicked()
+    {
 
-	public void OnButtonClicked() {
-
-		SceneManager.LoadScene ("main");
-	}
+        SceneManager.LoadScene("main");
+    }
 }
