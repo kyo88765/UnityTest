@@ -6,5 +6,5 @@ PROJECT_PATH="../"
 EXECUTE_METHOD="BuildClass.Build"
 
 $UNITY_PATH/Unity -batchmode -quit \
-    -projectPath $PROJECT_PATH
-    -executeMethod $EXECUTE_METHOD 
+    -projectPath $PROJECT_PATH \
+    -executeMethod $EXECUTE_METHOD
