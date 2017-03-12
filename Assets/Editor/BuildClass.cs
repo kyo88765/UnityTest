@@ -14,8 +14,8 @@ public class BuildClass : MonoBehaviour
         string errorMessage = BuildPipeline.BuildPlayer
         (
             sceneList,
-            "/Users/kawaguchikyouhei/My/WorkSpace/Unity Projects/out/UnityTest.exe",
-            BuildTarget.StandaloneWindows,
+            "/Users/kawaguchikyouhei/My/WorkSpace/UnityProjects/out/ios/UnityTest",
+            BuildTarget.iOS,
             BuildOptions.None
         );
     }
