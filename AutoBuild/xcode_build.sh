@@ -7,9 +7,9 @@ SCHEME="Unity-iPhone"
 DESTINATION="platform=iOS,id=b32e2c78da6ed5a365e5dee5a458735d4819765f"
 
 xcodebuild \
-    DEVELOPMENT_TEAM="5DAMAH47RE"
     -project $PROJECT_PATH \
     -scheme $SCHEME \
     -destination $DESTINATION \
     -configuration Debug \
+    DEVELOPMENT_TEAM="5DAMAH47RE"
     build
