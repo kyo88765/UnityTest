@@ -11,5 +11,5 @@ xcodebuild \
     -scheme $SCHEME \
     -destination $DESTINATION \
     -configuration Debug \
-    DEVELOPMENT_TEAM="5DAMAH47RE"
+    DEVELOPMENT_TEAM="5DAMAH47RE" \
     build
