@@ -13,5 +13,5 @@ xcodebuild \
     -destination $DESTINATION \
     -configuration Debug \
     DEVELOPMENT_TEAM="5DAMAH47RE" \
-    CONFIGURATION_BUILD_DIR=$OUTPUT_PATH
+    CONFIGURATION_BUILD_DIR=$OUTPUT_PATH \
     build
